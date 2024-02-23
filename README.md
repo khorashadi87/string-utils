@@ -9,7 +9,7 @@ Simple string utils for dealing easier with them
 Install using composer:
 
 ‌```
-composer require queracollege/string-utils
+composer require khorashadi/string-utils
 ‌```
 
 # Example
@@ -19,7 +19,7 @@ composer require queracollege/string-utils
 
 require __DIR__.'/vendor/autoload.php';
 
-use \QueraCollege\StringUtils\Str;
+use \khorashadi\StringUtils\Str;
 
 var_dump(Str::contains('abcd', ['ab', 'x']));
 ‌```
